@@ -13,7 +13,7 @@ const Social = (props) => {
     </ul>
   );
   return (
-    <div className="social">
+    <div className="social index">
       {socialNetworks}
     </div>
   )
