@@ -1,0 +1,108 @@
+/*@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+header.wrapper {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+header.wrapper.content-wrapper {
+    float: right;
+    width: 100%;
+}
+
+.sidebar{
+  box-shadow: 4px 0px 5px -2px rgba(94,94,94,0.81);
+  text-align: center;
+  position: fixed;
+  width: 420px;
+  margin-right: -320px;
+  float: left;
+  color: white !important;
+  height: 100%;
+  background: linear-gradient(to top, #3e3e3e 0%, #06223e 100%);
+}
+
+.bio {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.bio.title h1{
+    font-weight: 700;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.bio.title h2{
+    font-size: 20px;
+    margin: 0px 0px 30px 0px;
+    font-weight: 300;
+    letter-spacing: 1.6px;
+}
+
+.bio.avatar img{
+    width: 140px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow:0 0 20px rgba(255,255,255,0.3);
+}
+
+.bio.desc {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+}*/
+
+
+ .waves {
+    position: absolute;
+    bottom: -135px;
+    height: 527px;
+    width:100%;
+    overflow: hidden;
+}
+
+.wave {
+    position:absolute;
+    width: 2402px;
+    height: 421px;
+    left:-180px;
+    background: url('../img/waves.png') center bottom no-repeat;
+    /*background: rgba(0,0,0,.3); */
+    animation: 5s wave ease-in-out infinite alternate;
+
+}
+.wave.a {
+    background-position: 0 - 854px; 
+}
+.wave.b {
+    background-position: 0 - 427px; 
+    animation-delay: .6s;
+}
+.wave.c {
+    background-position: 0 - 0; 
+    animation-delay: 1.2s;
+}
+@keyframes wave {
+    0%{
+        transform:translateX(0px) translateY(0px);
+    }
+    50%{
+        transform:translate(-80px , 30px);
+    }
+    100%{
+        transform:translateX(160px) translateY(-60px);
+    }
+}
