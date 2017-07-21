@@ -32,6 +32,11 @@
     background-position: 0 - 0; 
     animation-delay: 1.2s;
 }
+
+.certification{
+    font-size: 15px;
+    color: #39526d;
+}
 @keyframes wave {
     0%{
         transform:translateX(0px) translateY(0px);
