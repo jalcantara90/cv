@@ -60,9 +60,9 @@ class App extends Component {
               address={person.address}
               social={person.social} />
             <div className="waves">
-                <div className="wave a"></div>
-                <div className="wave c"></div>
-                <div className="wave b"></div>
+              <div className="wave a"></div>
+              <div className="wave c"></div>
+              <div className="wave b"></div>
             </div>
           </div>
 
@@ -71,7 +71,7 @@ class App extends Component {
                 <Experience experience={person.experience} />
                 <Education education={person.education} />
                 <Certificate certificate={person.certificate} />
-                <Skills skills={person.skills} />
+                {/* <Skills skills={person.skills} /> */}
               </div>
           </div>
 
